@@ -23,9 +23,9 @@
   border: 0;
   background: transparent;
   color: var(--forest-950);
-  font-family: var(--font-display);
+  font-family: var(--font-heading);
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.01em;
   cursor: pointer;
 }
@@ -37,7 +37,7 @@
   place-items: center;
   background: var(--lime-300);
   color: var(--forest-950);
-  font: 600 15px/1 var(--font-display);
+  font: 600 15px/1 var(--font-heading);
   border-radius: 3px;
 }
 
@@ -62,6 +62,7 @@
   border-radius: 12px 12px 0 0;
   background: transparent;
   color: #25352d;
+  font-family: var(--font-heading);
   font-size: 14px;
   font-weight: 500;
   white-space: nowrap;
@@ -163,9 +164,9 @@
 
 .kpi-card__value {
   color: var(--forest-950);
-  font-family: var(--font-display);
-  font-size: clamp(26px, 3vw, 36px);
-  font-weight: 500;
+  font-family: var(--font-body);
+  font-size: clamp(26px, 3vw, 34px);
+  font-weight: 600;
   line-height: 1.1;
   font-variant-numeric: lining-nums tabular-nums;
 }
@@ -244,18 +245,18 @@
 .page-header__eyebrow {
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ochre-700);
   margin-bottom: 12px;
 }
 
 .page-header__title {
-  font-family: var(--font-display);
+  font-family: var(--font-heading);
   font-weight: 500;
-  font-size: clamp(32px, 4.4vw, 48px);
-  line-height: 1.06;
-  letter-spacing: -0.02em;
+  font-size: clamp(30px, 4vw, 42px);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
 }
 
 .page-header__lede {
@@ -292,11 +293,11 @@
 
 .kpi__value {
   margin-top: 10px;
-  font-family: var(--font-display);
-  font-size: clamp(32px, 3.6vw, 44px);
-  font-weight: 500;
+  font-family: var(--font-body);
+  font-size: clamp(30px, 3.4vw, 40px);
+  font-weight: 600;
   line-height: 1.05;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
   font-variant-numeric: lining-nums tabular-nums;
 }
 
@@ -337,9 +338,9 @@
 }
 
 .section__title {
-  font-family: var(--font-display);
-  font-size: 26px;
-  font-weight: 500;
+  font-family: var(--font-heading);
+  font-size: 23px;
+  font-weight: 600;
   letter-spacing: -0.01em;
 }
 
@@ -615,11 +616,11 @@ select.field__control {
 }
 
 .figure {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.05;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
   font-variant-numeric: lining-nums tabular-nums;
 }
 
@@ -648,10 +649,10 @@ select.field__control {
 }
 
 .insight-item__figure {
-  font-family: var(--font-display);
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
   line-height: 1.1;
   font-variant-numeric: lining-nums tabular-nums;
 }
@@ -663,6 +664,7 @@ select.field__control {
 }
 
 .insight-item__title {
+  font-family: var(--font-heading);
   font-size: 15px;
   font-weight: 600;
   line-height: 1.4;
@@ -692,9 +694,9 @@ select.field__control {
 }
 
 .recommendation__title {
-  font-family: var(--font-display);
-  font-size: 24px;
-  font-weight: 500;
+  font-family: var(--font-heading);
+  font-size: 21px;
+  font-weight: 600;
   letter-spacing: -0.01em;
 }
 
@@ -750,6 +752,7 @@ select.field__control {
   border-radius: var(--radius-sm);
   font-size: 13px;
   min-width: 140px;
+  font-family: var(--font-body);
 }
 
 .chart-tooltip__title {
@@ -762,6 +765,7 @@ select.field__control {
   justify-content: space-between;
   gap: 16px;
   color: rgb(242 239 232 / 0.85);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---------- Loading, errors, buttons ---------- */

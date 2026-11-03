@@ -156,6 +156,7 @@
   fill: var(--ink-2);
   font-family: var(--font-body);
   font-size: 11px;
+  font-variant-numeric: tabular-nums;
 }
 
 .chart-boundary-label {
@@ -300,7 +301,8 @@
   margin: 0;
   color: var(--ink, #26352d);
   font-size: 15px;
-  font-weight: 650;
+  font-family: var(--font-heading);
+  font-weight: 600;
 }
 
 .panel__description {
@@ -325,8 +327,9 @@
 
 .chart-axis-label {
   fill: #78847b;
-  font-family: inherit;
+  font-family: var(--font-body);
   font-size: 10px;
+  font-variant-numeric: tabular-nums;
 }
 
 .chart-empty {
@@ -370,8 +373,9 @@
 .metric-value {
   color: var(--ink, #26352d);
   font-size: 25px;
-  font-weight: 650;
-  letter-spacing: -0.04em;
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
 }
 
