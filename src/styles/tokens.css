@@ -1,0 +1,46 @@
+/* Stockwise design tokens.
+   Palette drawn from the references: forest green + lime (reports/fintech dashboards),
+   warm paper + ochre (fashion dashboard). One system, used everywhere. */
+:root {
+  --font-display: 'Fraunces', 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --ink: #25352d;
+  --ink-2: #788078;
+  --ink-3: #788078;
+
+  --paper: #efece6;
+  --nav-surface: #f8f6f1;
+  --surface: #ffffff;
+  --band: #e8e4d8;
+  --line: #d8d3c4;
+  --line-strong: #b4ae9c;
+
+  --forest-950: #06281a;
+  --forest-800: #0b4a2b;
+  --green-500: #0ba45b;
+  --lime-300: #bdeb74;
+
+  --ochre-700: #8a5d14;
+  --ochre-600: #a8741f;
+  --ochre-400: #cda24d;
+  --sand-300: #d9cfb5;
+
+  --alert-600: #c24a15;
+  --alert-bg: #fbe9df;
+  --notice-bg: #f4ecd8;
+  --negative-600: #b3372a;
+  --positive-600: #1b7f46;
+
+  --radius: 6px;
+  --radius-sm: 4px;
+  --nav-height: 64px;
+  --page-max: 1240px;
+  --gutter: 32px;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --gutter: 20px;
+  }
+}
